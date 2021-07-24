@@ -30,7 +30,7 @@ Clone this repository. You will need `Node.js` & `Git` installed globally on you
 
     #### Variables:
 
-    > PORT=`PORT_NUMBER`
+    > PORT=`PORT_NUMBER`<br/>
     > DB_CONNECTION_STRING=`YOUR_MONGODB_CONNNECTION_STRING`/masterDb
     > JWT_SECRET_KEY=`YOUR_SECRET_KEY`
 
