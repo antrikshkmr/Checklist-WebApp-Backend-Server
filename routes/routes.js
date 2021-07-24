@@ -1,9 +1,17 @@
+// ====================================================== //
+// ======= File having all the API endpoint routes ====== //
+// ====================================================== //
+
+// Initialize Express Router
 let router = require("express").Router();
 
 var usersController = require("../controllers/usersController");
 var tasksController = require("../controllers/tasksController");
+
+// Import the api auth middleware
 let auth = require("../middleware/auth");
 
+// User routes
 router.route("/register").post(usersController.registerUser);
 router
   .route("/users/username/:username")
@@ -11,6 +19,7 @@ router
 router.route("/users/id/:userid").get(auth, usersController.getUserById);
 router.route("/login").post(usersController.login);
 
+// Tasks routes
 router.route("/tasks/:userid").get(auth, tasksController.getAllTasksById);
 
 router.route("/tasks/create/:userid").post(auth, tasksController.createNewTask);
@@ -36,4 +45,5 @@ router
   .route("/tasks/delete/:userid/completed/:id")
   .post(auth, tasksController.deleteCompletedTaskById);
 
+// Export API routes
 module.exports = router;

@@ -1,5 +1,8 @@
+// ====================================================== //
+// =========== Schema for User Account Details ========== //
+// ====================================================== //
+
 var mongoose = require("mongoose");
-const Joi = require("joi");
 
 var usersSchema = mongoose.Schema({
   username: {
@@ -25,7 +28,9 @@ var usersSchema = mongoose.Schema({
   }
 });
 
+// Export User model
 var Users = (module.exports = mongoose.model("users", usersSchema));
+
 module.exports.get = function(callback, limit) {
   Users.find(callback).limit(limit);
 };

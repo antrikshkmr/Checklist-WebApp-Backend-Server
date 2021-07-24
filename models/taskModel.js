@@ -1,3 +1,7 @@
+// ====================================================== //
+// ============= Schema for a checklist item ============ //
+// ====================================================== //
+
 var mongoose = require("mongoose");
 
 var taskSchema = mongoose.Schema({
@@ -18,7 +22,10 @@ var taskSchema = mongoose.Schema({
     default: Date.now
   }
 });
+
+// Export Task model
 var Task = (module.exports = mongoose.model("task", taskSchema));
+
 module.exports.get = function(callback, limit) {
   Task.find(callback).limit(limit);
 };

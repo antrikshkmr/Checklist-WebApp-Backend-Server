@@ -1,4 +1,9 @@
+// ====================================================== //
+// ========== Schema for list of checlist items ========= //
+// ====================================================== //
+
 var mongoose = require("mongoose");
+
 var tasksListSchema = mongoose.Schema({
   tasksList: {
     todo: {
@@ -16,6 +21,7 @@ var tasksListSchema = mongoose.Schema({
   }
 });
 
+// Export TaskList model
 var TasksList = (module.exports = mongoose.model("tasks", tasksListSchema));
 
 module.exports.get = function(callback, limit) {
