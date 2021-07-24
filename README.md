@@ -6,7 +6,7 @@
 
 ## About the project
 
-This is the Backend API server for the Sample checklist webapp which can be used to manage your to-do list of items. The frontend code can be found here <a href="https://github.com/antrikshkmr/checklistToolFrontend" target="_blank">checklistToolFrontend</a>.<br/>
+This is the Backend API server for the Sample checklist webapp which can be used to manage your to-do list of items. The frontend code can be found here <a href="https://github.com/antrikshkmr/Checklist-WebApp" target="_blank">Checklist-WebApp</a>.<br/>
 
 This project is built using these technologies.
 
