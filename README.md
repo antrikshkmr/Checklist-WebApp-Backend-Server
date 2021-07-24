@@ -38,7 +38,7 @@ Clone this repository. You will need `Node.js` & `Git` installed globally on you
 
 3)  Run `npm start` command in your terminal/cmd.
 
-    This would run the app in the development mode on the port number you specified in the environment file.
+    This would run the app in development mode on the port number you specified in the environment file.
     Open [http://localhost:8000/](http://localhost:8000) in your browser or postman to run the dummy api. You will get `Welcome to Checklist Backend Server` message as response from the server.
 
     > If you want that your changes are automatically taken and the server starts again, you can run `npm run dev` command in your terminal/cmd _(It uses nodemon to take the new changes and deploy the server automatically)_
