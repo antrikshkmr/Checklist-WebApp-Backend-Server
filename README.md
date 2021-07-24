@@ -47,3 +47,19 @@ Clone this repository. You will need `Node.js` & `Git` installed globally on you
 
 Open the project root folder. You will find all the directories with relevant files.<br/>
 Each file has inline comments for easy understanding of the code.<br/>
+
+## Sources
+
+- <a href="https://www.npmjs.com/package/express" target="_blank">express</a> : Fast, unopinionated, minimalist web framework for node.
+
+- <a href="https://www.npmjs.com/package/mongoose" target="_blank">mongoose</a> : MongoDB object modeling tool designed to work in an asynchronous environment.
+
+- <a href="https://www.npmjs.com/package/body-parser" target="_blank">body-parser</a> : Node.js body parsing middleware.
+
+- <a href="https://www.npmjs.com/package/jsonwebtoken" target="_blank">jsonwebtoken</a> : An implementation of JSON Web Tokens for React.js and Node.js.
+
+- <a href="https://www.npmjs.com/package/nodemon" target="_blank">nodemon</a> : Nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+- <a href="https://www.npmjs.com/package/bcrypt" target="_blank">bcrypt</a> : Library for password hasing.
+
+- <a href="https://www.npmjs.com/package/dotenv" target="_blank">dotenv</a> : Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
